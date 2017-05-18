@@ -11,7 +11,7 @@
             <div class="menu-toggler sidebar-toggler">
                 <!-- DOC: Remove the above "hide" to enable the sidebar toggler button on header -->
             </div>
-        
+
         </div>
         <!-- END LOGO -->
         <!-- BEGIN RESPONSIVE MENU TOGGLER -->
@@ -22,12 +22,12 @@
             <!-- BEGIN TOP NAVIGATION MENU -->
             <div class="top-menu">
                 <ul class="nav navbar-nav pull-right">
-                    @if(Auth::check())
+
                     <li class="separator hide"> </li>
                     <li class="dropdown dropdown-extended dropdown-inbox dropdown-dark">
                         <a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-close-others="true" aria-expanded="false">
                             <i class="icon-user"></i>
-                            <span class="font-grey-salsa"> Hi {{Auth::user()->name}} </span>
+                            <span class="font-grey-salsa"> Hi  </span>
                         </a>
                         <ul class="dropdown-menu dropdown-menu-default">
                             <li>
@@ -60,13 +60,13 @@
                                     </span>
                                 </a>
                                 <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
-                                    {{ csrf_field() }}
+                                    
                                 </form>
                             </li>
                         </ul>
                     </li>
                     <li class="separator hide"> </li>
-                    @endif
+
                 </ul>
             </div>
         </div>

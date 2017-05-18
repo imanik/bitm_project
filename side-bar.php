@@ -12,9 +12,77 @@
         <!-- DOC: Set data-auto-speed="200" to adjust the sub menu slide up/down speed -->
 
 
-        
+        <ul class="page-sidebar-menu   " data-keep-expanded="false" data-auto-scroll="true" data-slide-speed="200">
+            <li class="nav-item start ">
+                <a href="javascript:;" class="nav-link nav-toggle">
+                    <i class="icon-home"></i>
+                    <span class="title">Dashboard</span>
 
+                </a>
+            </li>
+            <li class="heading">
+                <h3 class="uppercase">Features</h3>
+            </li>
+            <li class="nav-item  ">
+                <a href="javascript:;" class="nav-link nav-toggle">
+                    <i class="icon-diamond"></i>
+                    <span class="title">Payroll</span>
+
+                </a>
+
+            </li>
+            <li class="nav-item  ">
+                <a href="javascript:;" class="nav-link nav-toggle">
+                    <i class="icon-puzzle"></i>
+                    <span class="title">Employees</span>
+
+                </a>
+
+            </li>
+            <li class="nav-item  ">
+                <a href="javascript:;" class="nav-link nav-toggle">
+                    <i class="icon-settings"></i>
+                    <span class="title">Company</span>
+
+                </a>
+
+            </li>
+            <li class="nav-item  ">
+                <a href="javascript:;" class="nav-link nav-toggle">
+                    <i class="icon-bulb"></i>
+                    <span class="title">Bank</span>
+
+                </a>
+
+            </li>
+            <li class="nav-item  ">
+                <a href="javascript:;" class="nav-link nav-toggle">
+                    <i class="icon-briefcase"></i>
+                    <span class="title">Departments</span>
+
+                </a>
+
+            </li>
+            <li class="nav-item  ">
+                <a href="?p=" class="nav-link nav-toggle">
+                    <i class="icon-wallet"></i>
+                    <span class="title">Designation</span>
+
+                </a>
+
+            </li>
+            <li class="nav-item  ">
+                <a href="javascript:;" class="nav-link nav-toggle">
+                    <i class="icon-bar-chart"></i>
+                    <span class="title">Branches</span>
+
+                </a>
+
+            </li>
+        
+        </ul>
         <!-- END SIDEBAR MENU -->
+
     </div>
     <!-- END SIDEBAR -->
 </div>

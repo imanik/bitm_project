@@ -20,7 +20,8 @@
         <?php include_once "header.php"; ?>
         <div class="clearfix"> </div>
         <div class="page-container">
-            
+
+            <?php include_once "side-bar.php"; ?>
             <?php include_once "dashboard.php"; ?>
         </div>
         <?php include_once "footer.php"; ?>
